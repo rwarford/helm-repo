@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   etcd:
   - appVersion: 2.2.5
-    created: 2018-09-22T10:59:59.9500357-04:00
+    created: 2018-10-25T13:09:41.389360289-04:00
     description: Distributed reliable key-value store for the most critical data of
       a distributed system.
     digest: 878765db5fca442c4551e51eb3da63515de8921be0ad31fd2ed3eeb9be29aa5d
@@ -17,4 +17,14 @@ entries:
     urls:
     - etcd-0.5.1.tgz
     version: 0.5.1
-generated: 2018-09-22T10:59:59.9475354-04:00
+  vault-config:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-10-25T13:09:41.389691481-04:00
+    description: A chart to unseal and configure vault.
+    digest: b05e81d4e7ede3ba9ea0b508b6f77c4c351535c87c24f418ec5ba721296f6da2
+    name: vault-config
+    urls:
+    - vault_config-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-10-25T13:09:41.388806101-04:00
