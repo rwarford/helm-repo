@@ -25,6 +25,6 @@ entries:
     digest: b05e81d4e7ede3ba9ea0b508b6f77c4c351535c87c24f418ec5ba721296f6da2
     name: vault-config
     urls:
-    - vault_config-0.1.0.tgz
+    - vault-config-0.1.0.tgz
     version: 0.1.0
 generated: 2018-10-25T13:09:41.388806101-04:00
