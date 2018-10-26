@@ -3,16 +3,16 @@ entries:
   db-initializer:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-10-26T18:35:04.701636159-04:00
+    created: 2018-10-26T18:44:58.604031575-04:00
     description: A Helm chart for Kubernetes
-    digest: d77f66ef4b1e4a65947627b85a21ac023eab8dfc52369d7b3370bbc90be9fbf0
+    digest: 7354204e81d6df1b498a76f079c0c546976b37cc0a0cb219f5d127799a4929c6
     name: db-initializer
     urls:
     - db-initializer-0.1.0.tgz
     version: 0.1.0
   etcd:
   - appVersion: 2.2.5
-    created: 2018-10-26T18:35:04.702530585-04:00
+    created: 2018-10-26T18:44:58.604660111-04:00
     description: Distributed reliable key-value store for the most critical data of
       a distributed system.
     digest: 878765db5fca442c4551e51eb3da63515de8921be0ad31fd2ed3eeb9be29aa5d
@@ -30,11 +30,11 @@ entries:
   vault-config:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-10-26T18:35:04.703139917-04:00
+    created: 2018-10-26T18:44:58.606792137-04:00
     description: A chart to unseal and configure vault.
     digest: 0e2061134b427e3cd6f435de801e4db462c5bd22fc7394b5f9fa5942c70e9534
     name: vault-config
     urls:
     - vault-config-0.1.0.tgz
     version: 0.1.0
-generated: 2018-10-26T18:35:04.701233536-04:00
+generated: 2018-10-26T18:44:58.603565764-04:00
