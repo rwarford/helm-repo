@@ -3,16 +3,26 @@ entries:
   db-initializer:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-01T10:13:21.012955558-04:00
+    created: 2018-11-02T18:17:08.34995485-04:00
     description: A Helm chart for Kubernetes
-    digest: f2ef19f0fd7de0ef46c39c134da81d74f7b64296a05a7ed473e91c7adaf8bfdf
+    digest: 56356fb6dda87c74f81e92e18b31ba7efdb7e1f88da0035517bb038aa8966ee1
     name: db-initializer
     urls:
     - db-initializer-0.1.0.tgz
     version: 0.1.0
+  db-operator:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-11-02T18:17:08.350302779-04:00
+    description: A Helm chart for Kubernetes
+    digest: 796e532f4b1e51dc06c5e3c7f1e2a9e7a6c095625d867d7f094a08750db2c54b
+    name: db-operator
+    urls:
+    - db-operator-0.1.0.tgz
+    version: 0.1.0
   etcd:
   - appVersion: 2.2.5
-    created: 2018-11-01T10:13:21.01462366-04:00
+    created: 2018-11-02T18:17:08.399515438-04:00
     description: Distributed reliable key-value store for the most critical data of
       a distributed system.
     digest: 878765db5fca442c4551e51eb3da63515de8921be0ad31fd2ed3eeb9be29aa5d
@@ -29,7 +39,7 @@ entries:
     version: 0.5.1
   postgresql:
   - appVersion: 9.6.2
-    created: 2018-11-01T10:13:21.015511444-04:00
+    created: 2018-11-02T18:17:08.422676704-04:00
     description: Object-relational database management system (ORDBMS) with an emphasis
       on extensibility and on standards-compliance.
     digest: ba83c2395dce116d51ffa53f4f627999d549facdda1a0a9c9eb009cec3207172
@@ -51,11 +61,11 @@ entries:
   vault-config:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-01T10:13:21.017608453-04:00
+    created: 2018-11-02T18:17:08.430768389-04:00
     description: A chart to unseal and configure vault.
-    digest: 0e2061134b427e3cd6f435de801e4db462c5bd22fc7394b5f9fa5942c70e9534
+    digest: 0ec0565a9fec62c811250202453b748356a1b55ad26b2c3abae4987baee74af7
     name: vault-config
     urls:
     - vault-config-0.1.0.tgz
     version: 0.1.0
-generated: 2018-11-01T10:13:21.012353268-04:00
+generated: 2018-11-02T18:17:08.345051058-04:00
