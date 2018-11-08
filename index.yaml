@@ -3,9 +3,9 @@ entries:
   db-initializer:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-02T18:21:50.882189595-04:00
+    created: 2018-11-08T16:48:59.873146981-05:00
     description: A Helm chart for Kubernetes
-    digest: 56356fb6dda87c74f81e92e18b31ba7efdb7e1f88da0035517bb038aa8966ee1
+    digest: 2baa375c13bd7c683754e4da7b66a4cbe080f71dbe3d436885dd5bd4c2c20a01
     name: db-initializer
     urls:
     - db-initializer-0.1.0.tgz
@@ -13,7 +13,7 @@ entries:
   db-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-02T18:21:50.882419393-04:00
+    created: 2018-11-08T16:48:59.874227544-05:00
     description: A Helm chart for Kubernetes
     digest: 796e532f4b1e51dc06c5e3c7f1e2a9e7a6c095625d867d7f094a08750db2c54b
     name: db-operator
@@ -22,7 +22,7 @@ entries:
     version: 0.1.0
   etcd:
   - appVersion: 2.2.5
-    created: 2018-11-02T18:21:50.882775593-04:00
+    created: 2018-11-08T16:48:59.875412936-05:00
     description: Distributed reliable key-value store for the most critical data of
       a distributed system.
     digest: 878765db5fca442c4551e51eb3da63515de8921be0ad31fd2ed3eeb9be29aa5d
@@ -39,7 +39,7 @@ entries:
     version: 0.5.1
   postgresql:
   - appVersion: 9.6.2
-    created: 2018-11-02T18:21:50.883320677-04:00
+    created: 2018-11-08T16:48:59.876738236-05:00
     description: Object-relational database management system (ORDBMS) with an emphasis
       on extensibility and on standards-compliance.
     digest: ff3af29d279deb24071db285601d72f69e69f1fbf0481de6e9a3883c64ad96f3
@@ -61,11 +61,11 @@ entries:
   vault-config:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-02T18:21:50.883629497-04:00
+    created: 2018-11-08T16:48:59.88123948-05:00
     description: A chart to unseal and configure vault.
-    digest: 0ec0565a9fec62c811250202453b748356a1b55ad26b2c3abae4987baee74af7
+    digest: 37548d38ac3faed38df3b77b47ee53d68f02200946921b09fa4c28927c016db1
     name: vault-config
     urls:
     - vault-config-0.1.0.tgz
     version: 0.1.0
-generated: 2018-11-02T18:21:50.881815595-04:00
+generated: 2018-11-08T16:48:59.872200045-05:00
