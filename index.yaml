@@ -3,9 +3,9 @@ entries:
   db-initializer:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-08T19:58:13.114523312-05:00
+    created: 2018-11-08T21:04:35.530738954-05:00
     description: A Helm chart for Kubernetes
-    digest: cfe2b0ca7db47af5e568386133f8982a3dda8b250b81baa98329fa3a2a8d0c71
+    digest: ed188e95f5f223772189347c6ee10413d5ada61a5468ee6fb48562d5a9465d73
     name: db-initializer
     urls:
     - db-initializer-0.1.0.tgz
@@ -13,7 +13,7 @@ entries:
   db-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-08T19:58:13.115218603-05:00
+    created: 2018-11-08T21:04:35.531515716-05:00
     description: A Helm chart for Kubernetes
     digest: 796e532f4b1e51dc06c5e3c7f1e2a9e7a6c095625d867d7f094a08750db2c54b
     name: db-operator
@@ -22,7 +22,7 @@ entries:
     version: 0.1.0
   etcd:
   - appVersion: 2.2.5
-    created: 2018-11-08T19:58:13.116032951-05:00
+    created: 2018-11-08T21:04:35.532547854-05:00
     description: Distributed reliable key-value store for the most critical data of
       a distributed system.
     digest: 878765db5fca442c4551e51eb3da63515de8921be0ad31fd2ed3eeb9be29aa5d
@@ -39,7 +39,7 @@ entries:
     version: 0.5.1
   postgresql:
   - appVersion: 9.6.2
-    created: 2018-11-08T19:58:13.116832345-05:00
+    created: 2018-11-08T21:04:35.537544612-05:00
     description: Object-relational database management system (ORDBMS) with an emphasis
       on extensibility and on standards-compliance.
     digest: ff3af29d279deb24071db285601d72f69e69f1fbf0481de6e9a3883c64ad96f3
@@ -61,11 +61,11 @@ entries:
   vault-config:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-08T19:58:13.117355787-05:00
+    created: 2018-11-08T21:04:35.538611102-05:00
     description: A chart to unseal and configure vault.
     digest: 37548d38ac3faed38df3b77b47ee53d68f02200946921b09fa4c28927c016db1
     name: vault-config
     urls:
     - vault-config-0.1.0.tgz
     version: 0.1.0
-generated: 2018-11-08T19:58:13.114179281-05:00
+generated: 2018-11-08T21:04:35.528357352-05:00
