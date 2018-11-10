@@ -3,9 +3,9 @@ entries:
   db-initializer:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-08T21:04:35.530738954-05:00
+    created: 2018-11-09T19:12:41.364966123-05:00
     description: A Helm chart for Kubernetes
-    digest: ed188e95f5f223772189347c6ee10413d5ada61a5468ee6fb48562d5a9465d73
+    digest: 799336a4a59ea4776f152d4d3d78e2efebf7c3027921cf17d099b6acc40b9564
     name: db-initializer
     urls:
     - db-initializer-0.1.0.tgz
@@ -13,16 +13,26 @@ entries:
   db-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-08T21:04:35.531515716-05:00
+    created: 2018-11-09T19:12:41.365189759-05:00
     description: A Helm chart for Kubernetes
-    digest: 796e532f4b1e51dc06c5e3c7f1e2a9e7a6c095625d867d7f094a08750db2c54b
+    digest: 6cc8c9d6871ebecb49e696f29dac60750758f1d607114234c5c7637ee1ce75e0
     name: db-operator
     urls:
     - db-operator-0.1.0.tgz
     version: 0.1.0
+  db-vault:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-11-09T19:12:41.367974238-05:00
+    description: A Helm chart for Kubernetes
+    digest: cffd0f6e49f72621dbd2831c345937d86e6acc8103c8fc5afa2d451ba48583ed
+    name: db-vault
+    urls:
+    - db-vault-0.1.0.tgz
+    version: 0.1.0
   etcd:
   - appVersion: 2.2.5
-    created: 2018-11-08T21:04:35.532547854-05:00
+    created: 2018-11-09T19:12:41.370254169-05:00
     description: Distributed reliable key-value store for the most critical data of
       a distributed system.
     digest: 878765db5fca442c4551e51eb3da63515de8921be0ad31fd2ed3eeb9be29aa5d
@@ -39,10 +49,10 @@ entries:
     version: 0.5.1
   postgresql:
   - appVersion: 9.6.2
-    created: 2018-11-08T21:04:35.537544612-05:00
+    created: 2018-11-09T19:12:41.37104671-05:00
     description: Object-relational database management system (ORDBMS) with an emphasis
       on extensibility and on standards-compliance.
-    digest: ff3af29d279deb24071db285601d72f69e69f1fbf0481de6e9a3883c64ad96f3
+    digest: c0f5e3d230438904e297a052bbaa31d757a6058ba96cc6b0ab785b322c707a05
     engine: gotpl
     home: https://www.postgresql.org/
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
@@ -61,11 +71,21 @@ entries:
   vault-config:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-08T21:04:35.538611102-05:00
+    created: 2018-11-09T19:12:41.377912457-05:00
     description: A chart to unseal and configure vault.
     digest: 37548d38ac3faed38df3b77b47ee53d68f02200946921b09fa4c28927c016db1
     name: vault-config
     urls:
     - vault-config-0.1.0.tgz
     version: 0.1.0
-generated: 2018-11-08T21:04:35.528357352-05:00
+  vault-db-creds-test:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-11-09T19:12:41.378365046-05:00
+    description: A Helm chart for Kubernetes
+    digest: 841bafc2a4aa79991260ebb9611f5e0c9e8e742604d3c1b1ec1e81a93c2d220a
+    name: vault-db-creds-test
+    urls:
+    - vault-db-creds-test-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-11-09T19:12:41.364593449-05:00
